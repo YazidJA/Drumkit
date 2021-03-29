@@ -1,66 +1,18 @@
 body {
+  background-color: #1b2021;
+  color: #eac8af;
   text-align: center;
-  background-color: #283149;
+  font-family: "Press Start 2P", cursive;
+  font-size: 2vw;
 }
 
 h1 {
-  font-size: 5rem;
-  color: #DBEDF3;
-  font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
-
-}
-
-.d1 {
-  background-image: url("images/tom1.png");
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
-.d2 {
-  background-image: url("images/tom2.png");
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
-.d3 {
-  background-image: url("images/tom3.png");
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
-.d4 {
-  background-image: url("images/tom4.png");
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
-.d5 {
-  background-image: url("images/snare.png");
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
-.d6 {
-  background-image: url("images/crash.png");
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
-.d0 {
-  background-image: url("images/kick.png");
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
-.set {
-  margin: 5% auto;
-  min-height: 80vh;
-
+  text-shadow: 3px 0 #5f939a;
+  margin: 4vh auto;
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
+  box-shadow: 0 3px 4px 0 #d8ac9c;
   opacity: 0.5;
 }
 
@@ -69,19 +21,50 @@ h1 {
 }
 
 .drum {
-  min-height: 18vh;
-  min-width: 18vh;
-  outline: none;
-  border: 10px solid #404B69;
-  font-size: 5rem;
-  font-family: 'Arvo', cursive;
-  line-height: 2;
+  color: #5f939a;
   font-weight: 900;
-  color: #DA0463;
-  text-shadow: 3px 0 #DBEDF3;
-  border-radius: 15px;
+  font-size: 3rem;
+  text-shadow: 3px 0 #1b2021;
+  background-color: #d8ac9c;
+
+  border: 10px solid #5f939a;
+  border-radius: 20px;
+
+  margin: 1vh 1vw;
+  height: 18vmax;
+  width: 18vmax;
+  max-width: 28vh;
+
   display: inline-block;
-  text-align: center;
-  margin: 10px;
-  background-color: white;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.d1 {
+  background-image: url("images/tom1.png");
+}
+
+.d2 {
+  background-image: url("images/tom2.png");
+}
+
+.d3 {
+  background-image: url("images/tom3.png");
+}
+
+.d4 {
+  background-image: url("images/tom4.png");
+}
+
+.d5 {
+  background-image: url("images/snare.png");
+}
+
+.d6 {
+  background-image: url("images/crash.png");
+}
+
+.d0 {
+  background-image: url("images/kick.png");
 }
