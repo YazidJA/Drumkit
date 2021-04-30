@@ -1,2 +1,2 @@
-# DrumKit
-Drum Kit app. Made with HTML/CSS/Javascript.
+# Drumkit
+Drumkit app. Made with HTML/CSS/Javascript.
